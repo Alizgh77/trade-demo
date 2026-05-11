@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+    font-family: "Vazirmatn Variable", "Vazirmatn", Tahoma, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: rtl;
+}
+
+html {
+    font-family: "Vazirmatn Variable", "Vazirmatn", Tahoma, sans-serif;
+    background: #ffffff;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background: #ffffff;
+    color: #0f172a;
+    font-family: "Vazirmatn Variable", "Vazirmatn", Tahoma, sans-serif;
+    line-height: 1.65;
+    letter-spacing: -0.01em;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.numeric {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0;
+}
